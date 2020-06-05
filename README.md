@@ -60,7 +60,7 @@ https://fctodo.azurewebsites.net/swagger/index.html
 
 ### GET
 Url
- [https://fctodo.azurewebsites.net/todo](http://fctodo.azurewebsites.net/todo/index.html)
+ [https://fctodo.azurewebsites.net/todo](http://fctodo.azurewebsites.net/todo)
 Returns List of Todo Items
 ```json
  [
@@ -73,7 +73,7 @@ Returns List of Todo Items
 
 ### POST
 Url
- [https://fctodo.azurewebsites.net/todo](http://fctodo.azurewebsites.net/todo/index.html)
+ [https://fctodo.azurewebsites.net/todo](http://fctodo.azurewebsites.net/todo)
 Request Body `Content-Type` should be `"application/json"`
 Request Body to Send
 ```json
