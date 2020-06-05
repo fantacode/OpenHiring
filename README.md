@@ -1,6 +1,3 @@
-
-
-
 # Open Hiring
 Are you a recent graduate / a fresher looking for a job? Complete this task and Submit for a chance to get hired by Fantacode
 
@@ -65,30 +62,33 @@ https://fctodo.azurewebsites.net/swagger/index.html
 Url
  [https://fctodo.azurewebsites.net/todo](http://fctodo.azurewebsites.net/todo/index.html)
 Returns List of Todo Items
-
+```json
  [
- {
- "id": 1,
- "name": "Hello, Drink Water"
- }
+   {
+     "id": 1,
+     "name": "Hello, Drink Water"
+   }
  ]
+ ```
 
 ### POST
 Url
  [https://fctodo.azurewebsites.net/todo](http://fctodo.azurewebsites.net/todo/index.html)
 Request Body `Content-Type` should be `"application/json"`
 Request Body to Send
-
+```json
  {
- "name": "My To-do Task"
+   "name": "My To-do Task"
  }
+```
 ### Todo Object
-
+```csharp
  public class Todo
  {
- public int id { get; set; }
- public string name { get; set; }
+     public int id { get; set; }
+     public string name { get; set; }
  }
+ ```
 
 ## Sample Screenshots
 |Home|Add Todo Item Succes|Add Todo Item Error|
@@ -101,6 +101,7 @@ Once you have completed the steps, please share the link of your fork `hr@fantac
 
 **Note**
 Feel free to design the User Interface in any way you like. Experiment and try fancy stuff, you'll get more points for good looking UI's. Feel free to find inspiration from the below links or platforms like Dribble.
+
 https://github.com/jsuarezruiz/xamarin-forms-goodlooking-UI
 
 
