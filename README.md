@@ -91,6 +91,9 @@ Request Body to Send
  }
 
 ## Sample Screenshots
+|Home|Add Todo Item Succes|Add Todo Item Error|
+|--|--|--|
+| ![Home Screen of the App](https://i.ibb.co/86zRy73/Home.jpg) |  ![Indicating adding Todo Item was Succcess](https://i.ibb.co/Kj6BP13/Success-Case.jpg)|  ![Indicating Errors in Input](https://i.ibb.co/drBzyWV/Error-Case.jpg)|
 
 
 ## Submission
