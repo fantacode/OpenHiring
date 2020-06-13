@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoList.Droid.Models.Page1">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor = "lightgrey">
+            <StackLayout Margin="20,35,20,20" >
+                <Frame  HasShadow="true">
+                    <Entry x:Name="sub" Placeholder="Add your task" FontSize="25"></Entry>
+                </Frame>
+            </StackLayout>
+            <Button  Text="Submit"  Clicked="OnBtn_Clicked1"  BackgroundColor="MediumAquamarine" CornerRadius="50" WidthRequest="10" HeightRequest="60"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
