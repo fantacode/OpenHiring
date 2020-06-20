@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="GetAndPostApplication.MainPage" Title="TaskList" NavigationPage.HasNavigationBar="False">
+
+    <StackLayout Padding="10" BackgroundColor="Ivory">
+        <!-- Place new controls here -->
+        <!--<Grid  HorizontalOptions="FillAndExpand" Margin="10">
+            <Label Text="Id" Grid.Column="0" FontSize="Subtitle"/>
+            <Label Text="Name" Grid.Column="1" FontSize="Subtitle"/>
+        </Grid>-->
+        <Button Text="Add Todo" BackgroundColor="Blue" TextColor="White" Margin="0,20,0,0" Clicked="Add_Clicked" />
+        <Label Text="My Todo Tasks" FontSize="Title" TextColor="DarkGreen" />
+        <StackLayout>
+            <CollectionView x:Name="collectionList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame HasShadow="True" CornerRadius="10" Margin="10" Padding="10" BackgroundColor="Black">
+                            <StackLayout Orientation="Horizontal" Margin="10" VerticalOptions="Center">
+
+                                <BoxView WidthRequest="1" BackgroundColor="Blue" />
+                                <Label Text="{Binding name}" FontSize="Subtitle" TextColor="White" VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" />
+
+
+                            </StackLayout>
+                        </Frame> 
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
